@@ -2,8 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 E-Sports Platform project
 
-imamges:
+previews:
+main page:
 ![GitHub Logo](/img/1.jpg)
+login page:
 ![GitHub Logo](/img/2.jpg)
 
 
