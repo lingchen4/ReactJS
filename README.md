@@ -1,6 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-E-Sports Platform project
+## E-Sports Platform project
+
+### Writing function needs login permission
+
+
 
 previews:
 main page:
