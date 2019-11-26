@@ -4,7 +4,8 @@ E-Sports Platform project
 
 imamges:
 ![GitHub Logo](/img/1.jpg)
-Format: ![Alt Text](url)
+![GitHub Logo](/img/2.jpg)
+
 
 ## Available Scripts
 
