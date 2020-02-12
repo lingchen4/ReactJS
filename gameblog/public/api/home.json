@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": {
+    "topicList": [
+      {
+        "id": 1,
+        "title": "Hotest Game",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQz1IOVYqrzxM75ya1x97gPvT6TtvQuCwWOWLhQpWXOfm-1jN1dg&s"
+      },
+      {
+        "id": 2,
+        "title": "Shotting Game",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn5vB2O9cW1IO4wGOO_4ab16etB3gxBxcgJfTCB_gnI9ANT8xA&s"
+      },
+      {
+        "id": 3,
+        "title": "Mobile Game",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2cSaidlTK9B5DSbGbCDICcx14ROB5DfVhBtodFT9HGGBVajfg&s"
+      }
+    ],
+    "articleList": [
+      {
+        "id": 1,
+        "title": "SAVE THE DATE: Celebrate 10 Years With Us",
+        "disc": "The 10-Year Anniversary of League of Legends is nearly upon us,and we're planning a celebration for all of you who've built this game together with us",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ83bGdDURirZIzvTIoy9OHjXQejEjh7qOXxuncpfYNzK-JVYI&s"
+      },
+      {
+        "id": 2,
+        "title": "Anthem adds new Mass Effect-themed skins for N7 Day",
+        "disc": "Tomorrow is November 7, and November 7 is N7 Day, the annual event in which we all come together to celebrate the magic of Mass Effect and try not to be sad about, well, pretty much everything at this point. ",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKrXnvZ8gFjoE79-nzXeJM0tdtNppmCSURS4FtWnULcsd5R6uBgg&s"
+      },
+      {
+        "id": 3,
+        "title": "The next Hitman game is 'well under way'",
+        "disc": "Hitman 2 has been subject to countless updates since its release last November, but it looks like IO Interactive is moving most of its resources on to the next major installment in the series.",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvr4a9JPzkBVwxSdYL0GPVrHdB2C00MWG_yFyNlBdoPqNK9ejN&s"
+      },
+      {
+        "id": 4,
+        "title": "Black Friday gaming router deals 2019",
+        "disc": "How to save money on routers during Black Friday Best gaming router deals right now Black Friday isn't until November 29, but the deals on gaming hardware and accessories typically begin earlier than that, continuing through Thanksgiving weekend and into Cyber Monday.",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgV5Xhv-Ay815GYNj2VerUIqqe9rASuRUReoU_j13JHeSfpxwToQ&s"
+      }
+    ],
+    "recommendUrl": [
+      {
+        "id": 1,
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnjxbAo3GNz-x6AiViDF43qbtWqVs8k4sUbgQhA7wi3x3Z-qieg&s"
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSapoZoKqboadprg-YBHZ2afuD01CX32DUScS-DKkPf0Qr5o11a&s"
+      }
+    ]
+  }
+}
