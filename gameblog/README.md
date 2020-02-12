@@ -1,4 +1,15 @@
-# Glame blog APP
+
+## E-Sports Platform project
+
+### Writing function needs login permission
+
+
+previews:
+main page:
+![GitHub Logo](/gameblog/img/1.jpg)
+login page:
+![GitHub Logo](/gameblog/img/2.jpg)
+
 
 ## Available Scripts
 
@@ -66,4 +77,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# E-Sports-Platform-
