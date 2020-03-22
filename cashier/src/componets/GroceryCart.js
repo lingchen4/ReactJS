@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { removeFromCart } from "../reducers/action";
 
-export default class GroceryCart extends Component {
+class GroceryCart extends Component {
   total() {
-    return this.props.items.reduce((total, item) => {
-      return total + item.price;
-    }, 0);
+    return this.props.items
+      .reduce((total, item) => {
+        return total + item.price;
+      }, 0)
+      .toFixed(2);
   }
 
   render() {
@@ -46,3 +50,28 @@ export default class GroceryCart extends Component {
     );
   }
 }
+
+function mapStateToProps(state) {
+  return {
+    items: state.cart
+  };
+}
+
+// function mapDispatchToProps(dispatch) {
+//   return {
+//     removeFromCart: index => {
+//       dispatch({
+//         type: "REMOVE_FROM_CART",
+//         index
+//       });
+//     }
+//   };
+// }
+
+const mapDispatchToProps = dispatch => ({
+  removeFromCart(index) {
+    dispatch(removeFromCart(index));
+  }
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(GroceryCart);
