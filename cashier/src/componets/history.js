@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
+import { undo, redo } from "../reducers/action";
 
 class History extends Component {
   render() {
@@ -11,4 +13,19 @@ class History extends Component {
   }
 }
 
-export default History;
+// function mapStateToProps(state) {
+//   return {
+//     items: state.cart
+//   };
+// }
+
+const mapDispatchToProps = dispatch => ({
+  undo() {
+    dispatch(undo());
+  },
+  redo() {
+    dispatch(redo());
+  }
+});
+
+export default connect(null, mapDispatchToProps)(History);

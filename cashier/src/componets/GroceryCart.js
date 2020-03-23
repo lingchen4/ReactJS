@@ -57,17 +57,6 @@ function mapStateToProps(state) {
   };
 }
 
-// function mapDispatchToProps(dispatch) {
-//   return {
-//     removeFromCart: index => {
-//       dispatch({
-//         type: "REMOVE_FROM_CART",
-//         index
-//       });
-//     }
-//   };
-// }
-
 const mapDispatchToProps = dispatch => ({
   removeFromCart(index) {
     dispatch(removeFromCart(index));
